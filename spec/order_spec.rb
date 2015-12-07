@@ -5,8 +5,7 @@ describe Order do
   let(:dish) { double :dish, show_details: 'Pizza: £2.00', price: 2.00}
   let(:dish2) {double :dish2, show_details: 'Burger: £1.50', price: 1.50}
   let(:dish3) {double :dish3}
-  it { is_expected.to respond_to :order }
-
+  
   describe '#add_to_order' do
 
     it { is_expected.to respond_to :add_to_order }
