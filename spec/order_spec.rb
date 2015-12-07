@@ -2,7 +2,7 @@ require 'order'
 
 describe Order do
   let(:menu) {double :menu, dishes: [dish, dish2] }
-  let(:dish) { double :dish, show_details: 'Pizza: £2.00', price: 2.00}
+  let(:dish) {double :dish, show_details: 'Pizza: £2.00', price: 2.00}
   let(:dish2) {double :dish2, show_details: 'Burger: £1.50', price: 1.50}
   let(:dish3) {double :dish3}
   
